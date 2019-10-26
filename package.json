@@ -8,6 +8,9 @@
     "start": "env-cmd ./config/dev.env node src/index.js -e js,json,env",
     "dev": "env-cmd ./config/dev.env nodemon src/index.js -e js,json,env"
   },
+  "engines": {
+    "node": "8.11.3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js -e js,json,env",
-    "dev": "env-cmd ./config/dev.env nodemon src/index.js -e js,json,env"
+    "start": "node src/index.js -e js,json,env"
   },
   "engines": {
     "node": "8.11.3",

@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const _ = require('lodash');
-const jwtSecret = process.env.JWT_SECRET;
+const jwtSecret = 'miketsubasa96@gmail.com';
 
 auth = async (req,res,next) => {
     try{
